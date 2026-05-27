@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+
+# Local editor files
+.idea/
+.vscode/
+.codex_update_package/
+zewei_website_update_package.zip
+
+# macOS metadata
+._*
