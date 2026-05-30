@@ -536,10 +536,49 @@ body.theme-luka .experience-item {
   gap: 16px;
 }
 
-body.theme-luka .institution-logo {
-  width: 52px;
-  height: 52px;
+body.theme-luka .institution-logo-frame {
+  width: 68px;
+  height: 58px;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(142, 134, 120, 0.18);
+  box-shadow: 0 10px 24px rgba(70, 56, 43, 0.08);
+}
+
+body.theme-luka .institution-logo {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+body.theme-luka .institution-logo-mcmaster {
+  max-width: 46px;
+  max-height: 24px;
+}
+
+body.theme-luka .institution-logo-ubc {
+  max-width: 34px;
+  max-height: 40px;
+}
+
+body.theme-luka .institution-logo-frame-ubc {
+  justify-content: center;
+}
+
+body.theme-luka .institution-logo-frame-zjgsu {
+  background: rgba(255, 255, 255, 0.82);
+  border-color: rgba(142, 134, 120, 0.18);
+}
+
+body.theme-luka .institution-logo-zjgsu {
+  max-width: 42px;
+  max-height: 42px;
 }
 
 body.theme-luka .experience-content {
@@ -881,9 +920,25 @@ body.theme-luka strong {
     gap: 12px;
   }
 
-  body.theme-luka .institution-logo {
-    width: 44px;
-    height: 44px;
+  body.theme-luka .institution-logo-frame {
+    width: 56px;
+    height: 50px;
+    padding: 7px 8px;
+  }
+
+  body.theme-luka .institution-logo-mcmaster {
+    max-width: 40px;
+    max-height: 22px;
+  }
+
+  body.theme-luka .institution-logo-ubc {
+    max-width: 30px;
+    max-height: 34px;
+  }
+
+  body.theme-luka .institution-logo-zjgsu {
+    max-width: 34px;
+    max-height: 34px;
   }
 
   body.theme-luka .visitor-card {

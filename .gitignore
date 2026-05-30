@@ -7,5 +7,8 @@ Thumbs.db
 .codex_update_package/
 zewei_website_update_package.zip
 
+# Temporary downloaded logo asset from local preview experiments
+assets/img/institutions/zjgsu-logo.png
+
 # macOS metadata
 ._*
