@@ -233,6 +233,41 @@ body.theme-luka .site-name {
   line-height: 1.2;
 }
 
+body.theme-luka .site-name-native {
+  margin: -2px auto 13px;
+  line-height: 1;
+}
+
+body.theme-luka .site-name-native-mark {
+  display: block;
+  width: 126px;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0.84;
+}
+
+body.theme-luka .site-name-native-mark-dark {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) body.theme-luka .site-name-native-mark-light {
+    display: none;
+  }
+
+  :root:not([data-theme="light"]) body.theme-luka .site-name-native-mark-dark {
+    display: block;
+  }
+}
+
+[data-theme="dark"] body.theme-luka .site-name-native-mark-light {
+  display: none;
+}
+
+[data-theme="dark"] body.theme-luka .site-name-native-mark-dark {
+  display: block;
+}
+
 body.theme-luka .site-email {
   display: flex;
   flex-direction: column;
@@ -914,6 +949,14 @@ body.theme-luka strong {
 
   body.theme-luka .site-name {
     font-size: 24px;
+  }
+
+  body.theme-luka .site-name-native {
+    margin-bottom: 12px;
+  }
+
+  body.theme-luka .site-name-native-mark {
+    width: 112px;
   }
 
   body.theme-luka .experience-item {
