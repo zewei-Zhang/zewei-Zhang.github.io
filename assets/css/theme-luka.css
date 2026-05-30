@@ -233,6 +233,25 @@ body.theme-luka .site-name {
   line-height: 1.2;
 }
 
+body.theme-luka .site-name-native {
+  margin: -4px auto 10px;
+  line-height: 1;
+}
+
+body.theme-luka .site-name-native-mark {
+  display: block;
+  width: 104px;
+  height: auto;
+  max-width: 46%;
+  margin: 0 auto;
+  opacity: 0.82;
+}
+
+[data-theme="dark"] body.theme-luka .site-name-native-mark {
+  opacity: 0.9;
+  filter: brightness(1.08);
+}
+
 body.theme-luka .site-email {
   display: flex;
   flex-direction: column;
@@ -914,6 +933,14 @@ body.theme-luka strong {
 
   body.theme-luka .site-name {
     font-size: 24px;
+  }
+
+  body.theme-luka .site-name-native {
+    margin-bottom: 9px;
+  }
+
+  body.theme-luka .site-name-native-mark {
+    width: 96px;
   }
 
   body.theme-luka .experience-item {
