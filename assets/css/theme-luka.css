@@ -264,6 +264,7 @@ body.theme-luka .site-email {
 }
 
 body.theme-luka .site-role,
+body.theme-luka .site-degree,
 body.theme-luka .site-affiliation,
 body.theme-luka .site-tagline {
   margin: 0 auto 8px;
@@ -279,6 +280,14 @@ body.theme-luka .site-role {
   white-space: nowrap;
   font-weight: 600;
   line-height: 1.35;
+}
+
+body.theme-luka .site-degree {
+  max-width: 280px;
+  color: var(--luka-text);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.45;
 }
 
 body.theme-luka .site-affiliation {
